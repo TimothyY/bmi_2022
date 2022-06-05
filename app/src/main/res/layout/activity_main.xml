@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tinggi (m)"
+        android:inputType="numberDecimal"
+        android:id="@+id/etHeight"></EditText>
+
+    <EditText
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="berat (kg)"
+        android:inputType="number"
+        android:id="@+id/etWeight"></EditText>
+
+    <Button
+        android:padding="20dp"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:id="@+id/btnCalculateBMI"></Button>
+
+    <TextView
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil bmi disini"
+        android:id="@+id/tvResult"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apaajabole"
+        android:id="@+id/btnApaAja"></Button>
+</LinearLayout>
